@@ -1,62 +1,45 @@
 # GLab Assets
 
-**Centralized visual asset repository for the GLab ecosystem.**
+Centralized brand and visual asset repository for GLab applications, websites, GitHub repositories and Pages, GLab Enterprise (GLab Ent.), documentation, projects, and future GLab services.
 
-This repository stores and organizes brand identity materials and reusable visual resources used across GLab applications, software projects, GitHub repositories, websites, GitHub Pages, GLab Enterprise (GLab Ent.), documentation, and other official GLab initiatives.
-
-## What belongs here
-
-- Logos, wordmarks, and brand marks
-- Icons and interface graphics
-- Illustrations and visual elements
-- Brand colors and palettes
-- Typography samples and brand guidelines
-- Wallpapers, backgrounds, banners, and promotional graphics
-- Product, application, website, and enterprise identity resources
-- Reusable templates and other approved creative assets
-
-## Suggested organization
+## Directory structure
 
 ```text
 glab-assets/
-├── logos/
-├── icons/
-├── illustrations/
-├── wallpapers/
-├── typography/
-├── color-palettes/
-├── brand-guidelines/
+├── logos/{primary,alternate,monochrome}/
+├── icons/{apps,websites,products,interface}/
+├── illustrations/{general,products,interface}/
+├── wallpapers/{desktop,mobile}/
+├── typography/{fonts,specimens}/
+├── color-palettes/{core,products}/
+├── brand-guidelines/{identity,usage}/
 ├── products/
-│   ├── apps/
-│   ├── websites/
-│   ├── enterprise/
-│   └── projects/
+│   ├── apps/_template/{logos,icons,illustrations,screenshots}/
+│   ├── websites/_template/{logos,favicons,banners,graphics}/
+│   ├── enterprise/_template/{logos,icons,graphics,documents}/
+│   └── projects/_template/{logos,icons,graphics,documents}/
 └── resources/
-    ├── social-media/
-    ├── banners/
-    └── templates/
+    ├── social-media/{avatars,posts,stories,covers}/
+    ├── banners/{web,github,events}/
+    └── templates/{documents,presentations,design-files}/
 ```
 
-The directory structure may evolve as the asset library grows. Group assets by type or by the GLab product/project they support. Use clear filenames and preserve relevant attribution and licensing information.
+The folders above are tracked in Git with small `.gitkeep` placeholders until real assets are added. Copy and rename a product `_template` directory for each app, website, enterprise offering, or project.
 
-## Usage and permissions
+## Asset handling
 
-**Do not assume that an asset is reusable merely because this repository is public or can be cloned.**
+- Use descriptive, consistent filenames; keep source artwork and approved exports together where practical.
+- Preserve copyright notices, creator credits, source references, original numbering, and rights information.
+- Do not add third-party fonts, artwork, photographs, or other material unless GLab has the necessary rights to store it here. Keep any applicable third-party license and attribution files alongside the material.
+- Keep product-specific files in their product folder; put only approved ecosystem-wide assets in the shared top-level folders.
+- Do not replace or remove existing assets without checking their usage and rights metadata.
 
-Proprietary GLab assets are provided for viewing and reference only unless GLab has expressly granted additional written permission. Review [BRAND-ASSETS-LICENSE.md](BRAND-ASSETS-LICENSE.md) before using any material.
+## License and permissions
 
-Some files may be subject to separate third-party licenses. Those notices and license terms must be preserved and followed. The GLab Brand Assets License does not replace third-party licenses.
+**Public visibility does not mean permission to reuse assets.** Proprietary GLab assets are provided for viewing and reference only unless GLab grants additional written permission.
 
-## Permission requests
+Read the complete [GLab Brand Assets License](BRAND-ASSETS-LICENSE.md). The root [LICENSE](LICENSE) file also links directly to those full terms. Third-party content remains governed by its own applicable license.
 
-For authorization to use a GLab asset, contact:
+Permission requests: **he.3.glab.verse@gmail.com**
 
-- **GLab**
-- **Email:** he.3.glab.verse@gmail.com
-- **Country:** India
-
-Please identify the specific asset, intended project, distribution method, and requested scope of use.
-
----
-
-**Copyright © 2026 GLab. All Rights Reserved.**
+Copyright © 2026 GLab. All Rights Reserved.
